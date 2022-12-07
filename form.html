@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Registration Form</title>
+    </head>
+
+    <body>
+        <!-- HEADING -->
+        <h2 align="center">Student Registration Form</h2>
+
+        <!-- THE FORM STARTING -->
+        <form border="1" style="background-color:rgb(147, 205, 212)" action="./actionPage.html" target="_blank">
+
+
+            <!-- For First Name -->
+            <p>
+                <strong><label for="">First Name</label></strong>
+                <br> <input type="text" maxlength="50"> (Max 50 Characters Allowed)
+            </p>
+
+            <!-- For Middle Name -->
+            <p>
+                <strong><label for="">Middle Name</label></strong>
+                <br> <input type="text" maxlength="50"> (Max 50 Characters Allowed)
+            </p>
+            <!-- For Last Name -->
+            <p>
+                <strong><label for="">Last Name</label></strong>
+                <br> <input type="text" maxlength="50"> (Max 50 Characters Allowed)
+            </p>
+
+            <!-- For Date of birth -->
+            <p>
+                <label for=""><strong>Date of birth</strong></label>
+                <input type="date">
+            </p>
+           
+            <!-- For Address -->
+            <p>
+                <label for=""><strong>Address</strong></label>
+                <br> <input type="text" maxlength="50"> (Max 50 Characters Allowed)
+            </p>
+
+            <!-- For Email -->
+            <p>
+                <label for=""><strong>Email</strong></label> <br>
+                <input type="email">
+            </p>
+            
+            <!-- For Password -->
+            <p>
+                <label for=""><strong>Password</strong></label> <br>
+                <input type="password">
+                <br><font style="color:darkred">(A Strong Password should be at least 12 characters long. <br>A combination of uppercase and lowercase letters, numbers, and symbols. <br>Not a word that can be found in a dictionary)</font>
+
+            </p>
+
+            <!-- For the person's Gender -->
+            <p>
+                <strong><strong>Gender</strong></strong>
+                <br> <label for="">Male</label>
+                <input type="checkbox">
+
+                &nbsp;
+                <label for="">Female</label>
+                <input type="checkbox">
+            </p>
+            <label for=""><strong>Why do you want to be a part of this institution?</strong></label><br>
+            <textarea  row="30" cols="42" placeholder="enter text here"></textarea>
+
+            <p>
+                &nbsp; <input type="submit">
+            </p>
+
+        </form>
+    </body>
+</html>
